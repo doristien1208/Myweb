@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引入 Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- 主內容容器 -->
+  <div class="container mt-5">
+    <!-- 第一組圖片與文字 -->
+    <div *ngFor='let item of data' class="row mb-4"> <!-- 使用 mb-4 增加每組之間的間距 -->
+      <!-- 左邊圖片區塊 -->
+      <div class="col-md-6">
+        <div class="pic">
+          <!-- 可以在這裡放入圖片 -->
+          <img src="../../../assets/pics/dmd.jpg" class="img-fluid" alt="Placeholder Image">
+        </div>
+      </div>
+      <!-- 右邊文字區塊 -->
+      <div class="col-md-6">
+        <div class="text">
+          <h2>{{item.title}}</h2>
+          <p>{{item.abstract}}</p>
+          <p>
+            可以是任何形式的介紹、描述或資訊。
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 分隔線 -->
+    <div class="divider"></div>
+
+    <!-- 第二組圖片與文字 -->
+    <div class="row mb-4">
+      <!-- 左邊圖片區塊 -->
+      <div class="col-md-6">
+        <div class="pic">
+          <img src="../../../assets/pics/hci.png" class="img-fluid" alt="Placeholder Image">
+        </div>
+      </div>
+      <!-- 右邊文字區塊 -->
+      <div class="col-md-6">
+        <div class="text">
+          <h2>Title 2</h2>
+          <p>
+            這是一段範例文字。你可以在這裡放置你所需的內容。
+          </p>
+          <p>
+            可以是其他的資訊，或任何你想要的描述文字。
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 引入 Bootstrap JS 和必要的依賴 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

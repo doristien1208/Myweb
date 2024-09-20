@@ -1,0 +1,55 @@
+.pic {
+    background-size: cover; /* 圖片覆蓋整個區域 */
+    height: 200px;
+    position: relative; /* 為了定位內部的偽元素 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* 防止圖片超出容器 */
+    border: 1px solid #ccc; /* 容器邊框 */
+  }
+
+.pic img{
+    z-index: 2;
+    object-fit: cover; /* 圖片會保持比例並填滿容器 */
+}
+
+.pic::before {
+    content: ''; /* 空內容 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(51, 51, 51); /* 半透明黑色遮罩 */
+    opacity: 0.5; /* 調rgba(206, 21, 21, 0.5)*/
+  }
+
+.text {
+    padding: 20px; /* 內部間距 */
+    overflow: hidden; /* 防止圖片超出容器 */
+    position: relative;
+  }
+.text::before{
+    content: ''; /* 空內容 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(39, 39, 39); /* 半透明黑色遮罩 */
+    opacity: 0.5; /* 調rgba(206, 21, 21, 0.5)*/
+    z-index: 1;
+}
+
+.text h2, .text p{
+    z-index: 2;
+    color: rgba(240, 240, 240, 0.966);
+    position: relative;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ccc; /* 分隔線顏色 */
+    margin: 50px 50px; /* 上下間距 */
+  }
