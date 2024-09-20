@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet,RouterModule,} from '@angular/router';
-// script.js
-import "nes.css/css/nes.min.css";
 @Component({
   selector: 'app-root',
   standalone: true,

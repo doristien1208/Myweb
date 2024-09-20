@@ -20,5 +20,5 @@ export class DataService {
   }*/
 
   getDataFromFile(fileName: string): Observable<any> {
-    return this.http.get('assets/${fileName}');}
+    return this.http.get(`assets/${fileName}`);}
 }

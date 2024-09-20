@@ -1,12 +1,18 @@
 [
     {
-        "title":"ICTIK & DMD 2022",
-        "image":"/pics/dmd.jpg",
-        "abstract":"數位媒體領域涵蓋多元，跨足了設計與運算，所以學習的內容包含了運算相關和媒體設計，這兩個領域容易衝突，設計師時常難以將運算節合自己的設計創意；因此本研究透過工作坊的形式活動，促進設計師在運算領域上的想法與自我學習。從過往的經歷、訪談與團體觀察我們整理出問題與流程藉此來設計工作坊的系統，透過本系統進行優化後實際將系統導入工作坊。因舉辦工作坊需要耗費時間與人力等成本，故我們將其轉為了一套自動化系統來輔助工作坊活動的進行，並設計行動應用介面。 該行動應用介面以網頁原型為基礎，配合工作坊進行焦點團體測試，工作坊每個組別的成員會有不同領域成員，訂定共同目標進行挑戰來完成以下流程：設計發想、技術導入、實作測試。各組的挑戰都會基於各自的場景來讓參與成員來完成上述三個階段，並且對應不同的系統功能模組去協助解決工作坊過程中可能會發生的情況。如在設計發想階段了解問題需求之後接到工程技術導入這一塊時，系統會依據初步發想協助尋找到適合的程式工具，讓參與者有個方向了解哪些工具可以協助他完成該目標，到了實作的階段時，因在每一個場景當下的所有資訊皆會透過系統去收集，且可以即時共享給該場景下的每一位角色，故對引導者來說可以很快速的從系統去了解哪一位參與者在哪一部分出現了問題，而參與者之間也能互相的交流與分享，讓該系統也能作為一個虛擬的工作坊交流空間。"
+        "title":"設計領域學生的運算工作坊：自動化工作坊應用工具",
+        "image":"assets/pics/dmd.jpg",
+        "abstract":["數位媒體領域涵蓋多元，跨足了設計與運算，所以學習的內容包含了運算相關和媒體設計，這兩個領域容易衝突，設計師時常難以將運算節合自己的設計創意；因此本研究透過工作坊的形式活動，促進設計師在運算領域上的想法與自我學習。從過往的經歷、訪談與團體觀察我們整理出問題與流程藉此來設計工作坊的系統，透過本系統進行優化後實際將系統導入工作坊。因舉辦工作坊需要耗費時間與人力等成本，故我們將其轉為了一套自動化系統來輔助工作坊活動的進行，並設計行動應用介面。",
+        "該行動應用介面以網頁原型為基礎，配合工作坊進行焦點團體測試，工作坊每個組別的成員會有不同領域成員，訂定共同目標進行挑戰來完成以下流程：設計發想、技術導入、實作測試。各組的挑戰都會基於各自的場景來讓參與成員來完成上述三個階段，並且對應不同的系統功能模組去協助解決工作坊過程中可能會發生的情況。如在設計發想階段了解問題需求之後接到工程技術導入這一塊時，系統會依據初步發想協助尋找到適合的程式工具，讓參與者有個方向了解哪些工具可以協助他完成該目標，到了實作的階段時，因在每一個場景當下的所有資訊皆會透過系統去收集，且可以即時共享給該場景下的每一位角色，故對引導者來說可以很快速的從系統去了解哪一位參與者在哪一部分出現了問題，而參與者之間也能互相的交流與分享，讓該系統也能作為一個虛擬的工作坊交流空間。"
+    ]
     },
     {
-        "title":"HCI International 2023",
-        "image":"/pics/hci.png",
-        "abstract":"Workshops are a very common mode of interaction for team learning, and depending on the type of workshop, there are different ways of interaction and questions. In digital media workshops, design and computation coexist, but the logical conflict between them is always difficult for designers to understand and master. In the research team's previous study, we found that designers often had difficulty combining their imagination with the computational tools we were given at the time of the workshop, or not sure what tools could help them. In a multi-person workshop, it is difficult for the facilitator to take care of both the activity and the participants, resulting in an increased burden on the facilitator and a decrease in the participants' willingness and self-confidence to engage in computation."
+        "title":"Automated Tools Recommendation System for Computing Workshops",
+        "image":"assets/pics/hci.png",
+        "abstract":["Workshops are a very common mode of interaction for team learning, and depending on the type of workshop, there are different ways of interaction and questions. In digital media workshops, design and computation coexist, but the logical conflict between them is always difficult for designers to understand and master. In the research team's previous study, we found that designers often had difficulty combining their imagination with the computational tools we were given at the time of the workshop, or not sure what tools could help them. In a multi-person workshop, it is difficult for the facilitator to take care of both the activity and the participants, resulting in an increased burden on the facilitator and a decrease in the participants' willingness and self-confidence to engage in computation.",
+        "In the previous study, we tested and adjusted the interaction process of the workshop and developed a new workshop process. In this study, we took the role of the facilitator as the main part, the scenario as the computing workshop, and the user as the designer. The process of the previous study was used as the base concept for the next iteration of the system, for which we designed a model of the workshop support system.",
+        "After the participants have gone through the design thinking process, they put their design ides into the system, and after a set of natural language processing, the system can suggest the participants' computational tools based on the data, and provide them with the direction to choose the right tools for their ideas.",
+        "The system should also be able to make iterative corrections and learn from the iterative corrections in the original prescribed route to generate new answers. Through machine learning, the system can automatically learn and update, and can switch between different computational workshops more freely, so that the results can be more flexible."
+    ]
     }
 ]

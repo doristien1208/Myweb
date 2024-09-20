@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-//import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule} from '@angular/common/http';
+import { NgFor, NgIf } from '@angular/common';
+
 
 @Component({
   selector: 'app-publication',
   standalone: true,
-  imports: [HttpClientModule,CommonModule],
+  imports: [HttpClientModule,NgFor,NgIf],
   templateUrl: './publication.component.html',
   styleUrl: './publication.component.scss'
 })
