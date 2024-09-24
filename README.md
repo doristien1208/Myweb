@@ -1,3 +1,4 @@
 # web
  
-personal website make with Angular 17, not done yet:)
+personal website make with Angular 17
+still working, not done yet:)
