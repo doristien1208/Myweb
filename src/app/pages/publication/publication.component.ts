@@ -17,7 +17,7 @@ export class PublicationComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    /*// 讀取第一個 JSON 文件的數據
+    /*// 讀取第一個 JSON 的數據
     this.dataService.getDataFilePublication().subscribe(response => {
       this.data = response;
     });*/
